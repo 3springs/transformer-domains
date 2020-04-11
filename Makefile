@@ -80,7 +80,27 @@ test_environment:
 # PROJECT RULES                                                                 #
 #################################################################################
 
+## Test python environment is setup correctly
+run_language_modeling:
+	$(PYTHON_INTERPRETER) -m ipdb src/run_language_modeling.py \
+	--model_type gpt2 \
+	--model_name_or_path gpt2 \
+	--train_data_file ./data/processed/domains/data/train.txt \
+	--line_by_line \
+	--eval_data_file ./data/processed/domains/data/dev.txt \
+	--do_train \
+	--do_eval \
+	--evaluate_during_training \
+	--per_gpu_train_batch_size 8 \
+	--fp16 \
+	--output_dir ./models/${name}
 
+run_generation:
+	$(PYTHON_INTERPRETER) src/run_generation.py \
+	--model_type gpt2 \
+	--model_name_or_path ./models/${name} \
+	--length=20 \
+	--num_return_sequences 20
 
 #################################################################################
 # Self Documenting Commands                                                     #
