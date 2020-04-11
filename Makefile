@@ -82,7 +82,7 @@ test_environment:
 
 ## Test python environment is setup correctly
 run_language_modeling:
-	$(PYTHON_INTERPRETER) -m ipdb src/run_language_modeling.py \
+	$(PYTHON_INTERPRETER) src/run_language_modeling.py \
 	--model_type gpt2 \
 	--model_name_or_path gpt2 \
 	--train_data_file ./data/processed/domains/data/train.txt \
@@ -93,6 +93,7 @@ run_language_modeling:
 	--evaluate_during_training \
 	--per_gpu_train_batch_size 8 \
 	--fp16 \
+	--max_steps 2400 \
 	--output_dir ./models/${name}
 
 run_generation:
