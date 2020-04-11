@@ -36,9 +36,10 @@ def domains(input_filepath, output_filepath):
         outfile = output_filepath / f'{split}.txt'
         with outfile.open('w') as fo:
             for f in tqdm(files, desc=f"combining {split}"):
-                fo.write(f.open().read())
-
-    # TODO could pretokenize too
+                lines = f.open().readlines()
+                # reverse
+                lines = '\n'.join([s[::-1] for s in lines])
+                fo.write(lines)
 
 
 if __name__ == '__main__':

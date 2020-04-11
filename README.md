@@ -75,137 +75,87 @@ make run_generation name=1
 # Example output
 
 ```
-Model prompt >>> three
+Model prompt >>> .com
 === GENERATED SEQUENCE 1 ===
-threeflorianopolis.com.br!!!!!!!!!!!!!
+www.pestbomsb.com
 === GENERATED SEQUENCE 2 ===
-three-pink-makes.blogspot.com.br!!!!!!!!!
+chos-gfg.g4.com
 === GENERATED SEQUENCE 3 ===
-threeoncomicon.com.br!!!!!!!!!!!!!
+www.bloggeerte.com
 === GENERATED SEQUENCE 4 ===
-three-urls-co.blogspot.com.br!!!!!!!!!
+www.upprasvic.com
 === GENERATED SEQUENCE 5 ===
-three-five.blogspot.com.br!!!!!!!!!!!!
+2bhaspao.com
 === GENERATED SEQUENCE 6 ===
-threeizestes.com.br!!!!!!!!!!!!!
+vimittico.com
 === GENERATED SEQUENCE 7 ===
-threeteenchallenges.blogspot.no!!!!!!!!!!!!!
+www.listharkkman.com
 === GENERATED SEQUENCE 8 ===
-threeesizes.blogspot.com.br!!!!!!!!!!!!
+goanargente.com
 === GENERATED SEQUENCE 9 ===
-threefulmaker.blogspot.com.br!!!!!!!!!!!!
+www.matesarapsk.com
 === GENERATED SEQUENCE 10 ===
-threedolfatto.com.br!!!!!!!!!!!!!
+www.litvoni.com
 === GENERATED SEQUENCE 11 ===
-three.altosoft.no!!!!!!!!!!!!!!
+tsdingpraclioct.com
 === GENERATED SEQUENCE 12 ===
-threeseven.com.br!!!!!!!!!!!!!!!
+chorjosudeconmeurolamr.blogspot.com
 === GENERATED SEQUENCE 13 ===
-threeblogisbrasil.blogspot.com.br!!!!!!!!!
+www.superdokkeroisavaels.com
 === GENERATED SEQUENCE 14 ===
-three-day-registre.blogspot.com.br!!!!!!!!
+calayndoettch.conweb.com
 === GENERATED SEQUENCE 15 ===
-threeyuki.shop!!!!!!!!!!!!!!!!
+www.frecnamato.com
 === GENERATED SEQUENCE 16 ===
-three-rolands.no!!!!!!!!!!!!!!!
+www.carofowm.bloggetich.com
 === GENERATED SEQUENCE 17 ===
-threehashelen.blogspot.com.br!!!!!!!!!!!
+babrimeros.larpop.com
 === GENERATED SEQUENCE 18 ===
-threedudajeh.blogspot.com.br!!!!!!!!!!
+www.claseperlivroy.com
 === GENERATED SEQUENCE 19 ===
-threesskjell.no!!!!!!!!!!!!!!!
+www.munoxos.com
 === GENERATED SEQUENCE 20 ===
-three.no!!!!!!!!!!!!!!!!!!
-```
-
-```
-Model prompt >>> buy
-04/11/2020 08:12:51 - WARNING - transformers.modeling_utils -   Setting `pad_token_id` to 50256 (first `eos_token_id`) to generate sequence
+www.radiulsongaicos.com
 === GENERATED SEQUENCE 1 ===
-buybybeer.shop!!!!!!!!!!!!!!!!
+www.pestbomsb.com
 === GENERATED SEQUENCE 2 ===
-buy-tour-inside-la-bela-des.ibooked.com.br!
+chos-gfg.g4.com
 === GENERATED SEQUENCE 3 ===
-buyasul.com.br!!!!!!!!!!!!!!
+www.bloggeerte.com
 === GENERATED SEQUENCE 4 ===
-buy-inn-at-ice-inn-askibdering.ibooked.no!!
+www.upprasvic.com
 === GENERATED SEQUENCE 5 ===
-buy.no!!!!!!!!!!!!!!!!!!
+2bhaspao.com
 === GENERATED SEQUENCE 6 ===
-buyout.com.br!!!!!!!!!!!!!!!
+vimittico.com
 === GENERATED SEQUENCE 7 ===
-buylistingshow.no!!!!!!!!!!!!!!!
+www.listharkkman.com
 === GENERATED SEQUENCE 8 ===
-buylycritor.blogspot.com.br!!!!!!!!!!!
+goanargente.com
 === GENERATED SEQUENCE 9 ===
-buyingsplace.no!!!!!!!!!!!!!!!!
+www.matesarapsk.com
 === GENERATED SEQUENCE 10 ===
-buytinaonline.com.br!!!!!!!!!!!!!
+www.litvoni.com
 === GENERATED SEQUENCE 11 ===
-buygavegada.blogspot.com.br!!!!!!!!!!
+tsdingpraclioct.com
 === GENERATED SEQUENCE 12 ===
-buycrystal.com.br!!!!!!!!!!!!!!
+chorjosudeconmeurolamr.blogspot.com
 === GENERATED SEQUENCE 13 ===
-buymadeinenglish.blogspot.no!!!!!!!!!!!!!
+www.superdokkeroisavaels.com
 === GENERATED SEQUENCE 14 ===
-buy-and-soft.shop!!!!!!!!!!!!!!
+calayndoettch.conweb.com
 === GENERATED SEQUENCE 15 ===
-buyingindustria.com.br!!!!!!!!!!!!!
+www.frecnamato.com
 === GENERATED SEQUENCE 16 ===
-buy.unifesp.br!!!!!!!!!!!!!!
+www.carofowm.bloggetich.com
 === GENERATED SEQUENCE 17 ===
-buycosmeticos.com.br!!!!!!!!!!!!!
+babrimeros.larpop.com
 === GENERATED SEQUENCE 18 ===
-buys.no!!!!!!!!!!!!!!!!!
+www.claseperlivroy.com
 === GENERATED SEQUENCE 19 ===
-buyaventure.com.br!!!!!!!!!!!!!!
+www.munoxos.com
 === GENERATED SEQUENCE 20 ===
-buycites.com.br!!!!!!!!!!!!!!
-```
-
-```
-Model prompt >>>arx
-04/11/2020 08:13:35 - WARNING - transformers.modeling_utils -   Setting `pad_token_id` to 50256 (first `eos_token_id`) to generate sequence
-=== GENERATED SEQUENCE 1 ===
-arxisecasamento.com.br!!!!!!!!!!!!
-=== GENERATED SEQUENCE 2 ===
-arx-lumatessen.no!!!!!!!!!!!!!
-=== GENERATED SEQUENCE 3 ===
-arxivocafm.com.br!!!!!!!!!!!!
-=== GENERATED SEQUENCE 4 ===
-arx.pro.br!!!!!!!!!!!!!!!!
-=== GENERATED SEQUENCE 5 ===
-arximports.com.br!!!!!!!!!!!!!!
-=== GENERATED SEQUENCE 6 ===
-arxivocasamento.blogspot.com.br!!!!!!!!!
-=== GENERATED SEQUENCE 7 ===
-arxoreslagante.com.br!!!!!!!!!!!!!
-=== GENERATED SEQUENCE 8 ===
-arxivarcissoes.jusbrasil.com.br!!!!!
-=== GENERATED SEQUENCE 9 ===
-arxivazadornacontador.com.br!!!!!!!!!
-=== GENERATED SEQUENCE 10 ===
-arxivarenda.com.br!!!!!!!!!!!!!
-=== GENERATED SEQUENCE 11 ===
-arxandrisoluz.blogspot.com.br!!!!!!!!!!
-=== GENERATED SEQUENCE 12 ===
-arxujuregos.com.br!!!!!!!!!!!!
-=== GENERATED SEQUENCE 13 ===
-arximaisasp.blogspot.com.br!!!!!!!!!!!
-=== GENERATED SEQUENCE 14 ===
-arx.unirio.br!!!!!!!!!!!!!!
-=== GENERATED SEQUENCE 15 ===
-arxivaoquintal.ufes.br!!!!!!!!!!
-=== GENERATED SEQUENCE 16 ===
-arxis.com.br!!!!!!!!!!!!!!!
-=== GENERATED SEQUENCE 17 ===
-arxvillecriativa.com.br!!!!!!!!!!!
-=== GENERATED SEQUENCE 18 ===
-arxies.no!!!!!!!!!!!!!!!!!
-=== GENERATED SEQUENCE 19 ===
-arxivademocracia.blogspot.com.br!!!!!!!!!!
-=== GENERATED SEQUENCE 20 ===
-arxacaju.blogspot.com.br!!!!!!!!!!!
+www.radiulsongaicos.com
 ```
 
 # See also

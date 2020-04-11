@@ -208,6 +208,7 @@ def main():
     logger.info(args)
 
     prompt_text = args.prompt if args.prompt else input("Model prompt >>> ")
+    prompt_text = prompt_text[::-1]
 
     # Different models need different input formatting and/or extra arguments
     requires_preprocessing = args.model_type in PREPROCESSING_FUNCTIONS.keys()
@@ -252,6 +253,7 @@ def main():
         total_sequence = (
             prompt_text + text[len(tokenizer.decode(encoded_prompt[0], clean_up_tokenization_spaces=True)) :]
         )
+        total_sequence = total_sequence[::-1].strip('!')
 
         generated_sequences.append(total_sequence)
         print(total_sequence)
